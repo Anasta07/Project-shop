@@ -1,0 +1,123 @@
+:root {
+    --headline-color: #0d3c00;
+    --background-color: #faf5f2;
+    --submit-color: #79a207;
+}
+
+.categories-of-plants > img {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+ 
+
+#pick-of-the-month, h3 {
+    color: var(--headline-color);
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.testimonial {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+     
+}
+
+.testimonial > img {
+    object-fit: cover;
+    object-position: 61.723% 0%;
+}
+
+.answer > img {
+    border-radius: 90%;
+}
+
+.text {
+    padding: 50px;
+}
+
+.answer {
+    display: grid;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .testimonial {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .testimonial > img {
+        width: 90%;
+        height: 100%;
+        align-self: flex-start;
+        object-fit: cover;
+    }
+
+    .text .answer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: left;
+        vertical-align: baseline;
+        word-wrap: break-word;
+    }
+}
+
+/*----------------*/
+.contacts, .request {
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 0 0 5px;
+    margin: 15px;
+    padding: 20px;
+}
+
+@media (min-width: 760px) {
+    .info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+.contacts > h2 {
+    text-align: center;
+    color: var(--headline-color);
+    font-weight: 600;
+}
+
+.contacts > h3, p {
+    text-align: left;
+}
+.request {
+text-align: center;
+}
+.form-control {
+    
+    background-color: var(--background-color);
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    box-shadow: none;
+    text-overflow: ellipsis;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 21px;
+    font-size: 11px;
+    line-height: 1.8;
+    text-align: center;
+}
+ .btn-primary {
+     background-color: var(--submit-color);
+     border: none;
+     border-radius: 21px;
+     display: block;
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px 24px;
+ }
