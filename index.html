@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Planet of Plants</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/header.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/categories-of-plants.css">
     </head>
     <body>
@@ -14,9 +14,9 @@
                 <div class="logo">
                     Planet of Plants<br>
                     <h2 class="subtitle">Gardening &decoration</h2>
+                    <button class="open-btn" id="open">☰</button>
                 </div>
-                <label class="burger-icon" for="burger-checkbox">☰</label>
-                <input type="checkbox" id="burger-checkbox">
+                 
                 <div class="menu">
                     <a class="nav-link" href="#plants">Plants</a>
                     <a class="nav-link" href="#pick-of-the-month">Pick of the month</a>
@@ -33,6 +33,38 @@
                     </a>
                 </div>
             </nav>
+            <!--MODAL WINDOW -->
+    <div class="modal-container-window" id="modal">
+        <div class="modal-nav-menu">
+          <div class="modal-header-menu">
+            <button class="close-btn" id="close"> ✖ </button>
+            <div class="logo">
+                 Planet of Plants<br>
+                <h2 class="subtitle">Gardening &decoration</h2>
+            </div>
+          <div class="modal-content-nav-menu">
+            <div class="main-nav-menu">
+              <a class="nav-link" href="#plants">Plants</a>
+                    <a class="nav-link" href="#pick-of-the-month">Pick of the month</a>
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                    <div class="social"><a class="social-networks" href="https://www.instagram.com/">
+                        <img class="social-icon" src="img/instagram.svg" alt="instagram icon">
+                    </a>
+                    <a class="social-networks" href="https://www.facebook.com/">
+                        <img class="social-icon" src="img/facebook.svg" alt="facebook icon">
+                    </a>
+                    <a class="social-networks" href="https://www.youtube.com/">
+                        <img class="social-icon" src="img/youtube.svg" alt="youtube icon">
+                    </a>   </div>
+            </div>        
+          </div>
+        </div>
+      </div>
+      </div>
+              <!--MODAL WINDOW-->
+
+        
             <div class="banner">
                 <h1>"There are always plants for those who want to see them"</h1>
                 <p>Check out our store in New York with the best indoor &outdoor plants that are suitable for growing
@@ -253,6 +285,9 @@
             <p>Created by</p>
             <p>All rights Reserved</p>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+         <script src="header.js"></script>
     </body>
 </html>

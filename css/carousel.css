@@ -1,6 +1,5 @@
-.carousel-slide {
-    background-color: greenyellow;
-}
+ 
+
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
         display: none;
@@ -33,5 +32,10 @@
 .carousel-inner .carousel-item-right,
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
+}
+
+.border {
+    padding: 10px;
+    margin: 10px;
 }
 
