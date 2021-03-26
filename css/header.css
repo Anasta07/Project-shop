@@ -15,7 +15,7 @@ body {
     box-sizing: border-box;
 }
 
-/*MODAL WINDOW*/
+/*---------*/
 
 
 button,
@@ -144,7 +144,7 @@ button:focus {
   }
 }
 
-/*MODAL WINDOW*/
+/*-------------*/
 /* Header */
 header {
     background-image: url(../img/header-background.png);
