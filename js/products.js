@@ -61,7 +61,7 @@ function renderProducts(products, sortOrder = 'ascending') {
     for (const product of sortedProducts) {
         productsContainer.innerHTML += `
         <div class="price">
-                        <img src="img/${product.image}"  height = "350px" alt="${product.title}">
+                        <img src="img/${product.image}"  alt="${product.title}">
                         <div class="card-body">
                             <h5>${product.title}</h5>
                             <p>${product.price}</p>

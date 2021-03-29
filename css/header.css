@@ -37,6 +37,8 @@ button:focus {
   padding: 12px 30px;
   font-size: 20px;
   color: black;
+  border: none;
+  background: transparent;
 }
 
 .container {
@@ -48,6 +50,7 @@ button:focus {
 
 .modal-container-window {
   background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
   display: none;
   position: fixed;
   top: 0;
@@ -87,6 +90,7 @@ button:focus {
 .close-btn {
     font-size: 35px;
     color: black;
+    border: none;
     text-decoration: none;
     background: transparent;
     font-size: 25px;

@@ -9,7 +9,14 @@
     justify-content: center;
     padding-left: 50px;
 }
- 
+.row {
+    margin: 20px;
+}
+.col-12 {
+    border: 2px solid var(--background-color);
+    border-radius: 2px;
+     
+}
 #pick-of-the-month, h3 {
     color: var(--headline-color);
     text-align: center;
@@ -26,11 +33,6 @@
         grid-template-columns: 1fr 1fr;
     }
 
-}
-@media (max-width: 599px) {
-    .product-list img {
-        width: 100%;
-    }
 }
 
 @media (min-width: 850px) {
@@ -53,7 +55,9 @@
  .product-list img {
     padding: 20px;
     width: 100%;
-    max-width: 350px;
+    object-fit: cover;
+     
+    align-items: center;
  }
  .product-list .price {
      border: 2px solid white; 
@@ -162,4 +166,7 @@ text-align: center;
     width: 100%;
     margin-top: 12px;
     padding: 12px 24px;
+ }
+ .footer {
+     background-color: var(--background-color);
  }
