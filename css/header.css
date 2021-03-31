@@ -130,7 +130,6 @@ button:focus {
     align-items: center;
     padding: 0%;
     color: #fff;
-    padding-left: 50px;
     white-space: nowrap;
 }
 
@@ -199,7 +198,6 @@ header .menu {
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    padding-right: 10px;
 }
 
 .subtitle {

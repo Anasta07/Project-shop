@@ -24,6 +24,11 @@
     width: 100%;
      margin-left: 20px;
 }
+ .sort-buttons {
+     display: inline-flex;
+     justify-content: center;
+     justify-content: space-evenly;
+ }
 
 @media (min-width: 550px) {
 
